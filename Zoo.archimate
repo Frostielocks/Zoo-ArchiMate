@@ -777,6 +777,8 @@
           </child>
         </element>
       </folder>
+      <folder name="Museum" id="id-ccfa3040b69349ddb1fecee3799b7518"/>
+      <folder name="Media Center" id="id-81db21c6bdc94e4ab91631d761c9810d"/>
     </folder>
     <folder name="deprecated" id="id-c806a3c43e8e4ce9991d526bfb777d89">
       <folder name="Zoo-net" id="id-1685d12fa9a34af39b1417b703b3cbdc">
