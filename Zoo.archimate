@@ -214,6 +214,7 @@
   </folder>
   <folder name="Implementation &amp; Migration" id="id-005b49c4798e4770896aa4a66e82b6ef" type="implementation_migration">
     <element xsi:type="archimate:WorkPackage" name="Energy Management &amp; Automations" id="id-bf4d5e085eab4f31a214cebad6437b17"/>
+    <element xsi:type="archimate:WorkPackage" name="deploy zoo-archimate html as website under documentation moniker" id="id-312265c1886e4c5baae3deb57750ba15"/>
   </folder>
   <folder name="Other" id="id-ca12fc20a9204da2a0e6e67a1297780f" type="other">
     <element xsi:type="archimate:Grouping" name="aslan: DMZ vlan" id="id-cb5386f340f7407d934c7bc07f65ae8e"/>
@@ -515,6 +516,9 @@
             <child xsi:type="archimate:DiagramObject" id="id-4022d3452eef48809069e0332de1044d" archimateElement="id-9e09e69993d446b78dcb3beaee94870e">
               <bounds x="82" y="66" width="120" height="55"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-2c59b96b34c841eaadd89bd3dc6a1f71" source="id-4022d3452eef48809069e0332de1044d" target="id-1d8b2eeac0764f3aada26dd5306c6bd6" archimateRelationship="id-c83c3e3c91f948a99e0245570e29b773"/>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-b8aff2b097c64192a62f77e1db5a6e2e" archimateElement="id-312265c1886e4c5baae3deb57750ba15">
+              <bounds x="522" y="438" width="120" height="55"/>
             </child>
           </child>
         </element>
