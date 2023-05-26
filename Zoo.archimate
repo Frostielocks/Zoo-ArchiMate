@@ -735,6 +735,7 @@
               <sourceConnection xsi:type="archimate:Connection" id="id-33303f79e3634761939f5f5f91a7d5f5" source="id-747293cb701c414197d8ad88de387bbb" target="id-d899f6abdda241cabb25b157ca62f4d2" archimateRelationship="id-6e0a9a1b728a4b37a4d1b58369707b02"/>
             </child>
           </child>
+          <property key="version" value="1.1"/>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="Solution" id="id-0e93984523934806a2d0683db747ed65">
           <child xsi:type="archimate:DiagramObject" id="id-51447629370b47f38d8bb66277055fff" archimateElement="id-31af51e6ca5048d4b0b2cf9bc69f6470">
@@ -1551,11 +1552,13 @@
           </child>
         </child>
       </child>
-      <documentation>Outlines the capabilities of Zoo and shows some examples of prominent elements within these capabilities</documentation>
+      <documentation>Outlines the capabilities of Zoo and shows some examples of prominent elements within these capabilities.</documentation>
+      <property key="version" value="1.0"/>
     </element>
   </folder>
   <property key="author" value="Frost"/>
   <property key="GitHub" value="https://github.com/FrostTusk/Zoo-ArchiMate"/>
+  <property key="version" value="1.3"/>
   <purpose>An ArchiMate model for Zoo.&#xD;
 &#xD;
 This model is used to:&#xD;
