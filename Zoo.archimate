@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Zoo" id="id-34b271d20e4d4b848671f4e6c994f50a" version="5.0.0">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Zoo Architecture" id="id-34b271d20e4d4b848671f4e6c994f50a" version="5.0.0">
   <folder name="Strategy" id="id-6ceb9024d2af404d8c368afea11c67d9" type="strategy">
     <element xsi:type="archimate:Capability" name="IT Service Provider: Zoo" id="id-fe57c152190c40cea10049a7fe74d23f"/>
     <element xsi:type="archimate:Capability" name="Home Automation" id="id-206f26f8d876421faa58e4eef70fd753">
