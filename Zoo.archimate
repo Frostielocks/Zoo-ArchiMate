@@ -1531,7 +1531,7 @@
 This model is used to:&#xD;
 1) Maintain an architecture of my personal IT initiatives for documentation purposes.&#xD;
 2) Practice ArchiMate modeling to develop and maintain my modeling skills.&#xD;
-3) Educate and spread awareness on the importance of architecture and how to use ArchiMate framework.&#xD;
+3) Educate and spread awareness on the importance of enterprise architecture and how to use the ArchiMate framework.&#xD;
 &#xD;
 The Capabilities view is a good starting point to follow along and understand the model.</purpose>
   <profile name="Web Server" id="id-780021a2814646e692e4c2b3fa7f0280" conceptType="ApplicationComponent"/>
