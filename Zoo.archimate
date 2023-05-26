@@ -97,7 +97,7 @@
     <element xsi:type="archimate:ApplicationComponent" name="Virtual Sites" id="id-0d92545085bb4e24bd8577807da919bf"/>
     <element xsi:type="archimate:ApplicationComponent" name="Cloudflare" id="id-8fb2de48fe8d45d9bdf8c0b46637f51f" profiles="id-780021a2814646e692e4c2b3fa7f0280"/>
     <element xsi:type="archimate:ApplicationService" name="Zoo-web: website infrastructure" id="id-ddb011b0e31e43a8b07fcf62c6f120ac"/>
-    <element xsi:type="archimate:ApplicationComponent" name="DokuWiki" id="id-e3d6fa23818342d3be43bf9c4490a235" profiles="id-780021a2814646e692e4c2b3fa7f0280">
+    <element xsi:type="archimate:ApplicationComponent" name="DokuWiki" id="id-e3d6fa23818342d3be43bf9c4490a235" profiles="id-3709ab3a63f64527a1d1c1581bd94d4b">
       <property key="codename" value="Museum"/>
       <property key="domain" value="wiki.hub.industries"/>
     </element>
@@ -735,7 +735,7 @@
               <sourceConnection xsi:type="archimate:Connection" id="id-33303f79e3634761939f5f5f91a7d5f5" source="id-747293cb701c414197d8ad88de387bbb" target="id-d899f6abdda241cabb25b157ca62f4d2" archimateRelationship="id-6e0a9a1b728a4b37a4d1b58369707b02"/>
             </child>
           </child>
-          <documentation>Outlines the structure of the various websites and related applications hosted by zoo.</documentation>
+          <documentation>Outlines the structure of the various websites and related applications hosted by Zoo.</documentation>
           <property key="version" value="1.1"/>
           <property key="author" value="Frost"/>
         </element>
