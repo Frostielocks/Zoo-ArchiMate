@@ -1506,7 +1506,7 @@
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-df9914cad4fd497e96001781433c55f4" targetConnections="id-176df137759f454981bf22e30f13548f id-7433192e3d694bef999c5948474bd4ce id-ab7e0b441d9b429aa40ee799800ff7f9 id-1a4d8fca21a642ce823370b0d21e70fc" archimateElement="id-b76154aa2d93441ebe4da76fbf8166d9">
-          <bounds x="37" y="513" width="536" height="156"/>
+          <bounds x="28" y="509" width="536" height="156"/>
           <child xsi:type="archimate:DiagramObject" id="id-d531278570184104b0c68e7391c9c5b3" archimateElement="id-f59c645a444840dd9934160b539f3e32" type="1">
             <bounds x="322" y="51" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-176df137759f454981bf22e30f13548f" source="id-d531278570184104b0c68e7391c9c5b3" target="id-df9914cad4fd497e96001781433c55f4" archimateRelationship="id-b7164555c7d74a8a8903b97acdf32118"/>
