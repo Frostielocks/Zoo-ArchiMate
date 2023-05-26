@@ -735,7 +735,9 @@
               <sourceConnection xsi:type="archimate:Connection" id="id-33303f79e3634761939f5f5f91a7d5f5" source="id-747293cb701c414197d8ad88de387bbb" target="id-d899f6abdda241cabb25b157ca62f4d2" archimateRelationship="id-6e0a9a1b728a4b37a4d1b58369707b02"/>
             </child>
           </child>
+          <documentation>Outlines the structure of the various websites and related applications hosted by zoo.</documentation>
           <property key="version" value="1.1"/>
+          <property key="author" value="Frost"/>
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="Solution" id="id-0e93984523934806a2d0683db747ed65">
           <child xsi:type="archimate:DiagramObject" id="id-51447629370b47f38d8bb66277055fff" archimateElement="id-31af51e6ca5048d4b0b2cf9bc69f6470">
@@ -1554,6 +1556,7 @@
       </child>
       <documentation>Outlines the capabilities of Zoo and shows some examples of prominent elements within these capabilities.</documentation>
       <property key="version" value="1.0"/>
+      <property key="author" value="Frost"/>
     </element>
   </folder>
   <property key="author" value="Frost"/>
@@ -1566,7 +1569,10 @@ This model is used to:&#xD;
 2) Practice ArchiMate modeling to develop and maintain my modeling skills.&#xD;
 3) Educate and spread awareness on the importance of enterprise architecture and how to use the ArchiMate framework.&#xD;
 &#xD;
-The Capabilities view is a good starting point to follow along and understand the model.</purpose>
+The Capabilities view is a good starting point to follow along and understand the model.&#xD;
+&#xD;
+&#xD;
+*This project is licensed under the MIT license*</purpose>
   <profile name="Web Server" id="id-780021a2814646e692e4c2b3fa7f0280" conceptType="ApplicationComponent"/>
   <profile name="Website" id="id-3709ab3a63f64527a1d1c1581bd94d4b" conceptType="ApplicationComponent"/>
   <profile name="Operating System" id="id-7fa4c13b00af42a8a9876c3c6878408c" conceptType="SystemSoftware"/>
