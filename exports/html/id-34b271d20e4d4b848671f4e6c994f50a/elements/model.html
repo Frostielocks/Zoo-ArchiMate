@@ -129,7 +129,9 @@ The Capabilities view is a good starting point to follow along and understand th
 								dataFoldersContent.push({folderid:"id-34b271d20e4d4b848671f4e6c994f50a", contentid:"id-f2dc5fdcddac4531bc243a83426f0a88", contenttype:"Folder"});
 								dataFolders.push({id:"id-f2dc5fdcddac4531bc243a83426f0a88", type:"Folder", name:decodeURL("Business"), documentation:decodeURL("")});
 									dataFoldersContent.push({folderid:"id-f2dc5fdcddac4531bc243a83426f0a88", contentid:"id-f537581417a34c168b31c83ee4868a16", contenttype:"BusinessActor"});
-										dataElements.push({id:"id-f537581417a34c168b31c83ee4868a16", type:"BusinessActor", specialization:decodeURL(""), name:decodeURL("MEEEEEE"), documentation:decodeURL("")});
+										dataElements.push({id:"id-f537581417a34c168b31c83ee4868a16", type:"BusinessActor", specialization:decodeURL(""), name:decodeURL("MEEEEE+%3A3"), documentation:decodeURL("This+represents+me+%28Frost%29.")});
+													dataProperties.push({conceptid:"id-f537581417a34c168b31c83ee4868a16", propkey:decodeURL("codename"), propvalue:decodeURL("Frost")});
+
 									dataFoldersContent.push({folderid:"id-f2dc5fdcddac4531bc243a83426f0a88", contentid:"id-9e09e69993d446b78dcb3beaee94870e", contenttype:"BusinessActor"});
 										dataElements.push({id:"id-9e09e69993d446b78dcb3beaee94870e", type:"BusinessActor", specialization:decodeURL(""), name:decodeURL("Everyone"), documentation:decodeURL("")});
 									dataFoldersContent.push({folderid:"id-f2dc5fdcddac4531bc243a83426f0a88", contentid:"id-e5d02ccf2f3248359f06b8843cc4d0ab", contenttype:"BusinessService"});
@@ -157,7 +159,7 @@ The Capabilities view is a good starting point to follow along and understand th
 									dataFoldersContent.push({folderid:"id-f2dc5fdcddac4531bc243a83426f0a88", contentid:"id-4ce64f961b0844cdab8ec4346ac18d2d", contenttype:"BusinessService"});
 										dataElements.push({id:"id-4ce64f961b0844cdab8ec4346ac18d2d", type:"BusinessService", specialization:decodeURL(""), name:decodeURL("Multimedia"), documentation:decodeURL("")});
 									dataFoldersContent.push({folderid:"id-f2dc5fdcddac4531bc243a83426f0a88", contentid:"id-a7e96cec393948baba4181d36eaf6e6c", contenttype:"BusinessActor"});
-										dataElements.push({id:"id-a7e96cec393948baba4181d36eaf6e6c", type:"BusinessActor", specialization:decodeURL(""), name:decodeURL("Not+me"), documentation:decodeURL("")});
+										dataElements.push({id:"id-a7e96cec393948baba4181d36eaf6e6c", type:"BusinessActor", specialization:decodeURL(""), name:decodeURL("Not+me+%3Ac"), documentation:decodeURL("This+represent+everyone+that+isn%27t+me.")});
 									dataFoldersContent.push({folderid:"id-f2dc5fdcddac4531bc243a83426f0a88", contentid:"id-33aa1f0f5b684580b0f2ee328ec6af94", contenttype:"BusinessService"});
 										dataElements.push({id:"id-33aa1f0f5b684580b0f2ee328ec6af94", type:"BusinessService", specialization:decodeURL(""), name:decodeURL("Virtual+Assistant"), documentation:decodeURL("")});
 									dataFoldersContent.push({folderid:"id-f2dc5fdcddac4531bc243a83426f0a88", contentid:"id-a1a02630f9b149aa998aea01898a6ccc", contenttype:"BusinessService"});
@@ -178,6 +180,12 @@ The Capabilities view is a good starting point to follow along and understand th
 										dataElements.push({id:"id-f59c645a444840dd9934160b539f3e32", type:"Representation", specialization:decodeURL(""), name:decodeURL("Zoo-ArchiMate"), documentation:decodeURL("")});
 									dataFoldersContent.push({folderid:"id-f2dc5fdcddac4531bc243a83426f0a88", contentid:"id-b5b678a78bfc44dc8c1623c08fd38a40", contenttype:"Representation"});
 										dataElements.push({id:"id-b5b678a78bfc44dc8c1623c08fd38a40", type:"Representation", specialization:decodeURL(""), name:decodeURL("GitHub+Boards"), documentation:decodeURL("")});
+									dataFoldersContent.push({folderid:"id-f2dc5fdcddac4531bc243a83426f0a88", contentid:"id-a6e42282aa1042e08d79abc54480e0de", contenttype:"BusinessActor"});
+										dataElements.push({id:"id-a6e42282aa1042e08d79abc54480e0de", type:"BusinessActor", specialization:decodeURL(""), name:decodeURL("Friends+%26+Family"), documentation:decodeURL("People+I+know+and+trust.")});
+									dataFoldersContent.push({folderid:"id-f2dc5fdcddac4531bc243a83426f0a88", contentid:"id-4a765eea73d44642a94f9c9a806872ae", contenttype:"BusinessActor"});
+										dataElements.push({id:"id-4a765eea73d44642a94f9c9a806872ae", type:"BusinessActor", specialization:decodeURL(""), name:decodeURL("Strangers"), documentation:decodeURL("People+I+don%27t+know+and+don%27t+trust.")});
+									dataFoldersContent.push({folderid:"id-f2dc5fdcddac4531bc243a83426f0a88", contentid:"id-35e751de5c864b009633beb28a82d324", contenttype:"BusinessActor"});
+										dataElements.push({id:"id-35e751de5c864b009633beb28a82d324", type:"BusinessActor", specialization:decodeURL(""), name:decodeURL("Acquaintances"), documentation:decodeURL("People+I+know+but+don%27t+fully+trust.")});
 
 								dataFoldersContent.push({folderid:"id-34b271d20e4d4b848671f4e6c994f50a", contentid:"id-4a73fa5fc72e498ab56439fdbb4fc108", contenttype:"Folder"});
 								dataFolders.push({id:"id-4a73fa5fc72e498ab56439fdbb4fc108", type:"Folder", name:decodeURL("Application"), documentation:decodeURL("")});
@@ -695,8 +703,6 @@ The Capabilities view is a good starting point to follow along and understand th
 										dataRelationships.push({id:"id-837f9b846c0248439030b3b98e2aa60c", type:"CompositionRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-0b8ff64733cb46638e04aa68d6b1c523", targetid:"id-fe4ef6db4bb746f6aa706cdae831de85"});
 									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-3652ae6f71e44c68882718cc11c140e8", contenttype:"CompositionRelationship"});
 										dataRelationships.push({id:"id-3652ae6f71e44c68882718cc11c140e8", type:"CompositionRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-0b8ff64733cb46638e04aa68d6b1c523", targetid:"id-c59594f9e9e34c27937e9c0dce3414c4"});
-									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-c83c3e3c91f948a99e0245570e29b773", contenttype:"TriggeringRelationship"});
-										dataRelationships.push({id:"id-c83c3e3c91f948a99e0245570e29b773", type:"TriggeringRelationship", specialization:decodeURL(""), name:decodeURL("https"), documentation:decodeURL(""), sourceid:"id-9e09e69993d446b78dcb3beaee94870e", targetid:"id-8fb2de48fe8d45d9bdf8c0b46637f51f"});
 									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-bfb3c26f46a340ffb91c9a9f15d56dab", contenttype:"ServingRelationship"});
 										dataRelationships.push({id:"id-bfb3c26f46a340ffb91c9a9f15d56dab", type:"ServingRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-d7d35c9e21d14a6080571df045e10cea", targetid:"id-7ae8ff3c2b6d467db9f66742be1ebdf0"});
 									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-40849ce1b0504a22ace35273404f5eaf", contenttype:"ServingRelationship"});
@@ -821,10 +827,6 @@ The Capabilities view is a good starting point to follow along and understand th
 										dataRelationships.push({id:"id-80968f19ef8b42e88c27b724c83bec91", type:"ServingRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-700239a3f1f049758f8d48b67b9a28fc", targetid:"id-4ce64f961b0844cdab8ec4346ac18d2d"});
 									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-b53b66e694a147edbddfc50ea9f70c6c", contenttype:"AssignmentRelationship"});
 										dataRelationships.push({id:"id-b53b66e694a147edbddfc50ea9f70c6c", type:"AssignmentRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-f537581417a34c168b31c83ee4868a16", targetid:"id-4ce64f961b0844cdab8ec4346ac18d2d"});
-									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-0d48093bcc274a1d9b71fc6037e3f0b8", contenttype:"CompositionRelationship"});
-										dataRelationships.push({id:"id-0d48093bcc274a1d9b71fc6037e3f0b8", type:"CompositionRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-9e09e69993d446b78dcb3beaee94870e", targetid:"id-f537581417a34c168b31c83ee4868a16"});
-									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-352743f55d474501aaffb014e31f3a54", contenttype:"CompositionRelationship"});
-										dataRelationships.push({id:"id-352743f55d474501aaffb014e31f3a54", type:"CompositionRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-9e09e69993d446b78dcb3beaee94870e", targetid:"id-a7e96cec393948baba4181d36eaf6e6c"});
 									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-821d18c4010c42178c05d45a382c9301", contenttype:"RealizationRelationship"});
 										dataRelationships.push({id:"id-821d18c4010c42178c05d45a382c9301", type:"RealizationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-73570d4bdb4f4771860cfea3e30437c1", targetid:"id-ae82aa7ab7244b859ae4b14fee9b9239"});
 									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-2aaf94c1a1274057b5b1598520c07094", contenttype:"ServingRelationship"});
@@ -927,6 +929,16 @@ The Capabilities view is a good starting point to follow along and understand th
 										dataRelationships.push({id:"id-4b1c3962d76d47659b57557d211715c4", type:"ServingRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-0d92545085bb4e24bd8577807da919bf", targetid:"id-a0a9788d908f47d68d6ded27853a1502"});
 									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-c51374692c154e18beeb743ab370b512", contenttype:"FlowRelationship"});
 										dataRelationships.push({id:"id-c51374692c154e18beeb743ab370b512", type:"FlowRelationship", specialization:decodeURL(""), name:decodeURL("http"), documentation:decodeURL(""), sourceid:"id-8fb2de48fe8d45d9bdf8c0b46637f51f", targetid:"id-5da13d77b8904d34874064dbae7bc2ec"});
+									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-3c0322c0614a4683b7e834bf74b05f60", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-3c0322c0614a4683b7e834bf74b05f60", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-f537581417a34c168b31c83ee4868a16", targetid:"id-9e09e69993d446b78dcb3beaee94870e"});
+									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-a77197c8f1c948149b1524e07dd680b3", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-a77197c8f1c948149b1524e07dd680b3", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a7e96cec393948baba4181d36eaf6e6c", targetid:"id-9e09e69993d446b78dcb3beaee94870e"});
+									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-58acc541189d41e6a8016c2f071b7df8", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-58acc541189d41e6a8016c2f071b7df8", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-a7e96cec393948baba4181d36eaf6e6c", targetid:"id-a6e42282aa1042e08d79abc54480e0de"});
+									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-a9f854cd368f47c69865439697490524", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-a9f854cd368f47c69865439697490524", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-4a765eea73d44642a94f9c9a806872ae", targetid:"id-a7e96cec393948baba4181d36eaf6e6c"});
+									dataFoldersContent.push({folderid:"id-c3c8a145825a41c7b55a5a0d49c38251", contentid:"id-dee502c89cc149eca7ce664d475beed3", contenttype:"AggregationRelationship"});
+										dataRelationships.push({id:"id-dee502c89cc149eca7ce664d475beed3", type:"AggregationRelationship", specialization:decodeURL(""), name:decodeURL(""), documentation:decodeURL(""), sourceid:"id-35e751de5c864b009633beb28a82d324", targetid:"id-a7e96cec393948baba4181d36eaf6e6c"});
 
 								dataFoldersContent.push({folderid:"id-34b271d20e4d4b848671f4e6c994f50a", contentid:"id-d99d1b4c719a487a969c34a2b1506e41", contenttype:"Folder"});
 								dataFolders.push({id:"id-d99d1b4c719a487a969c34a2b1506e41", type:"Folder", name:decodeURL("Views"), documentation:decodeURL("")});
@@ -1083,9 +1095,10 @@ The Capabilities view is a good starting point to follow along and understand th
 										dataFoldersContent.push({folderid:"id-3597717241484064878f658dec1cde17", contentid:"id-c6b8f083e5be43b4a6879ec7044078da", contenttype:"Folder"});
 										dataFolders.push({id:"id-c6b8f083e5be43b4a6879ec7044078da", type:"Folder", name:decodeURL("Zoo-web"), documentation:decodeURL("")});
 											dataFoldersContent.push({folderid:"id-c6b8f083e5be43b4a6879ec7044078da", contentid:"id-5ed7cca85b2346538dd792f32536ed91", contenttype:"ArchimateDiagramModel"});
-												dataViews.push({id:"id-5ed7cca85b2346538dd792f32536ed91", type:"ArchimateDiagramModel", name:decodeURL("Website+Structure"), documentation:decodeURL("Outlines+the+structure+of+the+various+websites+and+related+applications+hosted+by+Zoo.")});
+												dataViews.push({id:"id-5ed7cca85b2346538dd792f32536ed91", type:"ArchimateDiagramModel", name:decodeURL("Hosting+Structure"), documentation:decodeURL("Outlines+the+structure+of+the+various+websites+and+related+applications+hosted+by+Zoo.")});
 															dataProperties.push({conceptid:"id-5ed7cca85b2346538dd792f32536ed91", propkey:decodeURL("author"), propvalue:decodeURL("Frost")});
 															dataProperties.push({conceptid:"id-5ed7cca85b2346538dd792f32536ed91", propkey:decodeURL("version"), propvalue:decodeURL("1.1")});
+															dataProperties.push({conceptid:"id-5ed7cca85b2346538dd792f32536ed91", propkey:decodeURL("status"), propvalue:decodeURL("draft")});
 
 														dataViewsContent.push({viewid:"id-5ed7cca85b2346538dd792f32536ed91", contentid:"id-d3909ebdea0c4e98bb015762ed07d224", contenttype:"ApplicationComponent"});
 														dataViewsContent.push({viewid:"id-5ed7cca85b2346538dd792f32536ed91", contentid:"id-5da13d77b8904d34874064dbae7bc2ec", contenttype:"ApplicationComponent"});
@@ -1117,6 +1130,46 @@ The Capabilities view is a good starting point to follow along and understand th
 																				dataViewsContent.push({viewid:"id-5ed7cca85b2346538dd792f32536ed91", contentid:"id-c51374692c154e18beeb743ab370b512", contenttype:"FlowRelationship"});
 
 
+											dataFoldersContent.push({folderid:"id-c6b8f083e5be43b4a6879ec7044078da", contentid:"id-acbfcf14e3b04082ac3365be67bfd239", contenttype:"ArchimateDiagramModel"});
+												dataViews.push({id:"id-acbfcf14e3b04082ac3365be67bfd239", type:"ArchimateDiagramModel", name:decodeURL("Capability+Realization"), documentation:decodeURL("Shows+what+main+components+realize+the+zoo-web+capability.")});
+															dataProperties.push({conceptid:"id-acbfcf14e3b04082ac3365be67bfd239", propkey:decodeURL("author"), propvalue:decodeURL("Frost")});
+															dataProperties.push({conceptid:"id-acbfcf14e3b04082ac3365be67bfd239", propkey:decodeURL("version"), propvalue:decodeURL("1.0")});
+															dataProperties.push({conceptid:"id-acbfcf14e3b04082ac3365be67bfd239", propkey:decodeURL("status"), propvalue:decodeURL("draft")});
+
+														dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-ed28274caed441328fec57a92ffc03ec", contenttype:"Capability"});
+																dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-9c2db3639ac84e4c997d15142b40240c", contenttype:"ApplicationCollaboration"});
+																dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-8fb2de48fe8d45d9bdf8c0b46637f51f", contenttype:"ApplicationComponent"});
+																dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-e3d6fa23818342d3be43bf9c4490a235", contenttype:"ApplicationComponent"});
+																dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-93a073cb43884c91aaeb793532a7f7c3", contenttype:"ApplicationComponent"});
+																dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-d3909ebdea0c4e98bb015762ed07d224", contenttype:"ApplicationComponent"});
+																dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-3bcdb0cb6d044b99a8b75bf249b821aa", contenttype:"ApplicationComponent"});
+																dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-5da13d77b8904d34874064dbae7bc2ec", contenttype:"ApplicationComponent"});
+																dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-97aec897bd2f458896054c63c6a5b220", contenttype:"ApplicationComponent"});
+																dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-32e5016a496949288faeda02db3f5e8c", contenttype:"ApplicationCollaboration"});
+																dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-a0a9788d908f47d68d6ded27853a1502", contenttype:"ApplicationComponent"});
+																dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-323de24aa48246a3b1c60eb5335f75ab", contenttype:"ApplicationComponent"});
+														
+
+																						dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-2cbb3250a8964f26ac6a9e649718e65e", contenttype:"RealizationRelationship"});
+
+																						dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-b5e2164975ff4babbadc9e687cb05e9d", contenttype:"RealizationRelationship"});
+
+																						dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-7d286360a31b4562b78b6f93a7c11568", contenttype:"RealizationRelationship"});
+
+																						dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-b24ad82b09054b4880aeef8f4111e08b", contenttype:"RealizationRelationship"});
+
+																						dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-bd4f0ddbe0614123a5265152b770db22", contenttype:"RealizationRelationship"});
+
+																						dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-1f6b18bf878746438a75b4e2c939b386", contenttype:"RealizationRelationship"});
+
+																						dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-5106e84d96a74741b82aad02617c2573", contenttype:"RealizationRelationship"});
+
+																						dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-b32ed617657148579f42c6f77ac589ce", contenttype:"RealizationRelationship"});
+
+																						dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-6e0a9a1b728a4b37a4d1b58369707b02", contenttype:"RealizationRelationship"});
+
+														
+
 
 										dataFoldersContent.push({folderid:"id-3597717241484064878f658dec1cde17", contentid:"id-6593c8adef714090a1163c9cb2b91236", contenttype:"Folder"});
 										dataFolders.push({id:"id-6593c8adef714090a1163c9cb2b91236", type:"Folder", name:decodeURL("Development"), documentation:decodeURL("")});
@@ -1138,9 +1191,10 @@ The Capabilities view is a good starting point to follow along and understand th
 										dataFoldersContent.push({folderid:"id-3597717241484064878f658dec1cde17", contentid:"id-40f3fb78e28b47b49383cdae0d8d7f76", contenttype:"Folder"});
 										dataFolders.push({id:"id-40f3fb78e28b47b49383cdae0d8d7f76", type:"Folder", name:decodeURL("Zoo-net"), documentation:decodeURL("")});
 											dataFoldersContent.push({folderid:"id-40f3fb78e28b47b49383cdae0d8d7f76", contentid:"id-e4b93bf11ee04b06810cc445bbf8fc4e", contenttype:"ArchimateDiagramModel"});
-												dataViews.push({id:"id-e4b93bf11ee04b06810cc445bbf8fc4e", type:"ArchimateDiagramModel", name:decodeURL("On-Premise+Network"), documentation:decodeURL("This+view+shows+the+various+devices+connected+to+the+zoo-net+on-premise+network.")});
+												dataViews.push({id:"id-e4b93bf11ee04b06810cc445bbf8fc4e", type:"ArchimateDiagramModel", name:decodeURL("On-Premise+Technology"), documentation:decodeURL("This+view+shows+the+various+devices+connected+to+the+zoo-net+on-premise+network.%0D%0A%0D%0ATo-Do%27s%3A%0D%0A1%2C+Add+IP+addresses%0D%0A2.+Validate+properties")});
 															dataProperties.push({conceptid:"id-e4b93bf11ee04b06810cc445bbf8fc4e", propkey:decodeURL("author"), propvalue:decodeURL("Frost")});
 															dataProperties.push({conceptid:"id-e4b93bf11ee04b06810cc445bbf8fc4e", propkey:decodeURL("version"), propvalue:decodeURL("1.2")});
+															dataProperties.push({conceptid:"id-e4b93bf11ee04b06810cc445bbf8fc4e", propkey:decodeURL("status"), propvalue:decodeURL("draft")});
 
 														dataViewsContent.push({viewid:"id-e4b93bf11ee04b06810cc445bbf8fc4e", contentid:"id-b0f641f981ed4ac9b7b8fefa91f2feb7", contenttype:"Node"});
 														dataViewsContent.push({viewid:"id-e4b93bf11ee04b06810cc445bbf8fc4e", contentid:"id-ec0efecc39ec4a7290e18ae8bb0f5102", contenttype:"Device"});
@@ -1620,59 +1674,14 @@ The Capabilities view is a good starting point to follow along and understand th
 
 
 									dataFoldersContent.push({folderid:"id-d99d1b4c719a487a969c34a2b1506e41", contentid:"id-7c06c25bbb5c4a61b32c46a6de7a1d26", contenttype:"Folder"});
-									dataFolders.push({id:"id-7c06c25bbb5c4a61b32c46a6de7a1d26", type:"Folder", name:decodeURL("element+libaries"), documentation:decodeURL("")});
-										dataFoldersContent.push({folderid:"id-7c06c25bbb5c4a61b32c46a6de7a1d26", contentid:"id-58feaded5b0d40838fbc1adea0e53f5c", contenttype:"ArchimateDiagramModel"});
-											dataViews.push({id:"id-58feaded5b0d40838fbc1adea0e53f5c", type:"ArchimateDiagramModel", name:decodeURL("Actors"), documentation:decodeURL("")});
-													dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-f537581417a34c168b31c83ee4868a16", contenttype:"BusinessActor"});
-													dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-9e09e69993d446b78dcb3beaee94870e", contenttype:"BusinessActor"});
-													dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-a7e96cec393948baba4181d36eaf6e6c", contenttype:"BusinessActor"});
-
-																			dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-0d48093bcc274a1d9b71fc6037e3f0b8", contenttype:"CompositionRelationship"});
-																			dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-352743f55d474501aaffb014e31f3a54", contenttype:"CompositionRelationship"});
-
-
-										dataFoldersContent.push({folderid:"id-7c06c25bbb5c4a61b32c46a6de7a1d26", contentid:"id-acbfcf14e3b04082ac3365be67bfd239", contenttype:"ArchimateDiagramModel"});
-											dataViews.push({id:"id-acbfcf14e3b04082ac3365be67bfd239", type:"ArchimateDiagramModel", name:decodeURL("zoo-web+definitions"), documentation:decodeURL("")});
-													dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-ed28274caed441328fec57a92ffc03ec", contenttype:"Capability"});
-															dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-9c2db3639ac84e4c997d15142b40240c", contenttype:"ApplicationCollaboration"});
-															dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-8fb2de48fe8d45d9bdf8c0b46637f51f", contenttype:"ApplicationComponent"});
-															dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-e3d6fa23818342d3be43bf9c4490a235", contenttype:"ApplicationComponent"});
-															dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-93a073cb43884c91aaeb793532a7f7c3", contenttype:"ApplicationComponent"});
-															dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-d3909ebdea0c4e98bb015762ed07d224", contenttype:"ApplicationComponent"});
-															dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-3bcdb0cb6d044b99a8b75bf249b821aa", contenttype:"ApplicationComponent"});
-															dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-5da13d77b8904d34874064dbae7bc2ec", contenttype:"ApplicationComponent"});
-															dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-97aec897bd2f458896054c63c6a5b220", contenttype:"ApplicationComponent"});
-															dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-32e5016a496949288faeda02db3f5e8c", contenttype:"ApplicationCollaboration"});
-															dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-a0a9788d908f47d68d6ded27853a1502", contenttype:"ApplicationComponent"});
-															dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-323de24aa48246a3b1c60eb5335f75ab", contenttype:"ApplicationComponent"});
-													
-
-																					dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-2cbb3250a8964f26ac6a9e649718e65e", contenttype:"RealizationRelationship"});
-
-																					dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-b5e2164975ff4babbadc9e687cb05e9d", contenttype:"RealizationRelationship"});
-
-																					dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-7d286360a31b4562b78b6f93a7c11568", contenttype:"RealizationRelationship"});
-
-																					dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-b24ad82b09054b4880aeef8f4111e08b", contenttype:"RealizationRelationship"});
-
-																					dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-bd4f0ddbe0614123a5265152b770db22", contenttype:"RealizationRelationship"});
-
-																					dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-1f6b18bf878746438a75b4e2c939b386", contenttype:"RealizationRelationship"});
-
-																					dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-5106e84d96a74741b82aad02617c2573", contenttype:"RealizationRelationship"});
-
-																					dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-b32ed617657148579f42c6f77ac589ce", contenttype:"RealizationRelationship"});
-
-																					dataViewsContent.push({viewid:"id-acbfcf14e3b04082ac3365be67bfd239", contentid:"id-6e0a9a1b728a4b37a4d1b58369707b02", contenttype:"RealizationRelationship"});
-
-													
-
+									dataFolders.push({id:"id-7c06c25bbb5c4a61b32c46a6de7a1d26", type:"Folder", name:decodeURL("libaries"), documentation:decodeURL("")});
 
 
 									dataFoldersContent.push({folderid:"id-d99d1b4c719a487a969c34a2b1506e41", contentid:"id-e90cc35554ef4f7987b6ed1622b6867a", contenttype:"ArchimateDiagramModel"});
-										dataViews.push({id:"id-e90cc35554ef4f7987b6ed1622b6867a", type:"ArchimateDiagramModel", name:decodeURL("Capabilities"), documentation:decodeURL("Outlines+the+capabilities+of+Zoo+and+shows+some+examples+of+prominent+elements+within+these+capabilities.")});
-													dataProperties.push({conceptid:"id-e90cc35554ef4f7987b6ed1622b6867a", propkey:decodeURL("version"), propvalue:decodeURL("1.0")});
+										dataViews.push({id:"id-e90cc35554ef4f7987b6ed1622b6867a", type:"ArchimateDiagramModel", name:decodeURL("Capabilities"), documentation:decodeURL("Outlines+the+capabilities+of+Zoo+and+shows+some+examples+of+prominent+elements+within+these+capabilities.%0D%0A%0D%0ATo-Do%27s%3A%0D%0A1.+Rename+development+and+internal+services.")});
 													dataProperties.push({conceptid:"id-e90cc35554ef4f7987b6ed1622b6867a", propkey:decodeURL("author"), propvalue:decodeURL("Frost")});
+													dataProperties.push({conceptid:"id-e90cc35554ef4f7987b6ed1622b6867a", propkey:decodeURL("version"), propvalue:decodeURL("1.0")});
+													dataProperties.push({conceptid:"id-e90cc35554ef4f7987b6ed1622b6867a", propkey:decodeURL("status"), propvalue:decodeURL("draft")});
 
 												dataViewsContent.push({viewid:"id-e90cc35554ef4f7987b6ed1622b6867a", contentid:"id-fe57c152190c40cea10049a7fe74d23f", contenttype:"Capability"});
 														dataViewsContent.push({viewid:"id-e90cc35554ef4f7987b6ed1622b6867a", contentid:"id-ed28274caed441328fec57a92ffc03ec", contenttype:"Capability"});
@@ -1734,6 +1743,33 @@ The Capabilities view is a good starting point to follow along and understand th
 																						dataViewsContent.push({viewid:"id-e90cc35554ef4f7987b6ed1622b6867a", contentid:"id-9ec8ac6df30f47d3ae0a01dabb70cbb9", contenttype:"RealizationRelationship"});
 
 																						dataViewsContent.push({viewid:"id-e90cc35554ef4f7987b6ed1622b6867a", contentid:"id-e9479bd65d64478e879b7600120a0275", contenttype:"RealizationRelationship"});
+
+														
+												
+
+									dataFoldersContent.push({folderid:"id-d99d1b4c719a487a969c34a2b1506e41", contentid:"id-58feaded5b0d40838fbc1adea0e53f5c", contenttype:"ArchimateDiagramModel"});
+										dataViews.push({id:"id-58feaded5b0d40838fbc1adea0e53f5c", type:"ArchimateDiagramModel", name:decodeURL("Actors"), documentation:decodeURL("Shows+the+main+actors+involved+in+interactions+with+Zoo.")});
+													dataProperties.push({conceptid:"id-58feaded5b0d40838fbc1adea0e53f5c", propkey:decodeURL("author"), propvalue:decodeURL("Frost")});
+													dataProperties.push({conceptid:"id-58feaded5b0d40838fbc1adea0e53f5c", propkey:decodeURL("version"), propvalue:decodeURL("1.1")});
+													dataProperties.push({conceptid:"id-58feaded5b0d40838fbc1adea0e53f5c", propkey:decodeURL("status"), propvalue:decodeURL("release")});
+
+												dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-9e09e69993d446b78dcb3beaee94870e", contenttype:"BusinessActor"});
+														dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-f537581417a34c168b31c83ee4868a16", contenttype:"BusinessActor"});
+														dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-a7e96cec393948baba4181d36eaf6e6c", contenttype:"BusinessActor"});
+																dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-a6e42282aa1042e08d79abc54480e0de", contenttype:"BusinessActor"});
+																dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-4a765eea73d44642a94f9c9a806872ae", contenttype:"BusinessActor"});
+																dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-35e751de5c864b009633beb28a82d324", contenttype:"BusinessActor"});
+														
+												
+
+																				dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-3c0322c0614a4683b7e834bf74b05f60", contenttype:"AggregationRelationship"});
+
+																				dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-a77197c8f1c948149b1524e07dd680b3", contenttype:"AggregationRelationship"});
+																				dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-58acc541189d41e6a8016c2f071b7df8", contenttype:"AggregationRelationship"});
+
+																						dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-a9f854cd368f47c69865439697490524", contenttype:"AggregationRelationship"});
+
+																						dataViewsContent.push({viewid:"id-58feaded5b0d40838fbc1adea0e53f5c", contentid:"id-dee502c89cc149eca7ce664d475beed3", contenttype:"AggregationRelationship"});
 
 														
 												
