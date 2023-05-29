@@ -222,7 +222,9 @@ Zoo provides infrastructural support upon which other technology can be built. T
     <element xsi:type="archimate:Path" name="ethernet (rhincodon)" id="id-5a673e264b444b11b51d16720ca340a7"/>
     <element xsi:type="archimate:SystemSoftware" name="DVD Player" id="id-b6c377b0aa8c4f43af96720907402eb6"/>
     <element xsi:type="archimate:Device" name="ROM USB" id="id-e7995c286c9d4c2c82b045b94d6d2ff5"/>
-    <element xsi:type="archimate:Device" name="external storage" id="id-ffeb42d2781a471facdf727dfecb81e5"/>
+    <element xsi:type="archimate:Device" name="external storage" id="id-ffeb42d2781a471facdf727dfecb81e5">
+      <property key="hostname" value="varanus"/>
+    </element>
     <element xsi:type="archimate:Device" name="security camera" id="id-09606155d41843948dbd564cd6aead40">
       <property key="hostname" value="amnirana"/>
       <property key="manufacturer" value="DLink"/>
