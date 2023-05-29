@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Zoo Architecture" id="id-34b271d20e4d4b848671f4e6c994f50a" version="5.0.0">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Zoo Architecture" id="id-34b271d20e4d4b848671f4e6c994f50a" version="4.9.0">
   <folder name="Strategy" id="id-6ceb9024d2af404d8c368afea11c67d9" type="strategy">
     <element xsi:type="archimate:Capability" name="Provide IT Services" id="id-fe57c152190c40cea10049a7fe74d23f">
       <property key="codename" value="Zoo"/>
@@ -13,7 +13,8 @@
     </element>
     <element xsi:type="archimate:Capability" name="Digital Entertainment" id="id-0a55cb0a16cc43d08a99f70ba4a03dc4"/>
     <element xsi:type="archimate:Capability" name="Infrastructural Support" id="id-d1260e5b98c1407e817e79ed48597770">
-      <documentation>Zoo provides infrastructural support upon which other technology can be built. This mostly consists of networking, storage, and server space.</documentation>
+      <documentation>A DIY home lab and computer network, originally built by recycling old computer equipment.
+Zoo provides infrastructural support upon which other technology can be built. This mostly consists of networking, storage, and server space.</documentation>
       <property key="codename" value="zoo-net"/>
     </element>
     <element xsi:type="archimate:Capability" name="Development" id="id-b76154aa2d93441ebe4da76fbf8166d9">
