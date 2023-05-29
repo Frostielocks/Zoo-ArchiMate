@@ -253,7 +253,9 @@ Zoo provides infrastructural support upon which other technology can be built. T
     <element xsi:type="archimate:Outcome" name="Have a networking home-lab" id="id-3d42bb225b0d4179946da16253d47593"/>
     <element xsi:type="archimate:Outcome" name="Have a maintable enterprise architecture" id="id-c4aeaa769f5f4334b17304d49e749221"/>
     <element xsi:type="archimate:Outcome" name="Performant internet access" id="id-000699c22b7f441b937070aeba3ca1db"/>
-    <element xsi:type="archimate:Outcome" name="Secure network infrastructure" id="id-cd831ade23544200a8cca16c2d00be23"/>
+    <element xsi:type="archimate:Outcome" name="Secure network infrastructure" id="id-cd831ade23544200a8cca16c2d00be23">
+      <documentation>1. Patch management Strategy</documentation>
+    </element>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-005b49c4798e4770896aa4a66e82b6ef" type="implementation_migration"/>
   <folder name="Other" id="id-ca12fc20a9204da2a0e6e67a1297780f" type="other">
