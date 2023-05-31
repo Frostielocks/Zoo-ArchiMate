@@ -168,9 +168,7 @@ $(document).ready(function() {
 		parent.window.postMessage('view-id=' + viewId, '*');
 
 		// *** DIAGRAM ZOOM ***
-		//initZoomSlider();
-		//window.addEventListener('load', initZoomSlider);
-		setTimeout(initZoomSlider, 50);
+		window.addEventListener('load', initZoomSlider);
 	}
 
 	function initZoomSlider() {
@@ -212,14 +210,5 @@ $(document).ready(function() {
 			slider.value = ((parseInt(slider.value)) + step);
 			setZoom();
 		}
-		// Register events wheel on root-panel-body
-		document.getElementsByClassName("root-panel-body")[0].addEventListener("wheel", function(e) {
-			// Zooming happens here
-			if (e.ctrlKey) {
-				e.preventDefault()
-				slider.value = ((parseInt(slider.value)) - e.deltaY/10)
-				setZoom()
-			}
-		})
 	}
 });
