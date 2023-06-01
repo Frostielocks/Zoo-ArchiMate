@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Zoo Architecture" id="id-34b271d20e4d4b848671f4e6c994f50a" version="4.9.0">
   <folder name="Strategy" id="id-6ceb9024d2af404d8c368afea11c67d9" type="strategy">
-    <element xsi:type="archimate:Capability" name="Provide IT Services" id="id-fe57c152190c40cea10049a7fe74d23f">
+    <element xsi:type="archimate:Capability" name="Provide Custom IT Services" id="id-fe57c152190c40cea10049a7fe74d23f">
       <documentation>Zoo stylized z00 is my personal IT service provider. It is the digital partner of Hub Industries . Amongst others it contains an entire computer network, IoT ecosystem, and a wide variety of public services.
 
 </documentation>
