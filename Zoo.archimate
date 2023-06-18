@@ -84,7 +84,7 @@ Zoo provides infrastructural support upon which other technology can be built. T
     <element xsi:type="archimate:ApplicationComponent" name="Squid Proxy" id="id-403950ae39d24accb50194f32e39aef1"/>
     <element xsi:type="archimate:ApplicationComponent" name="Launchpad" id="id-d3909ebdea0c4e98bb015762ed07d224" profiles="id-3709ab3a63f64527a1d1c1581bd94d4b">
       <documentation>Static one-page website that acts as the front-door to Hub Industries.</documentation>
-      <property key="GitHub" value="https://github.com/FrostTusk/Landing-Page"/>
+      <property key="source" value="https://github.com/FrostTusk/Landing-Page"/>
       <property key="domain" value="hub.industries"/>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Portfolio" id="id-97aec897bd2f458896054c63c6a5b220" profiles="id-3709ab3a63f64527a1d1c1581bd94d4b">
@@ -173,11 +173,12 @@ Zoo provides infrastructural support upon which other technology can be built. T
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Launchpad (copy)" id="id-f585d9135aa14f43a1270a74202a5723" profiles="id-3709ab3a63f64527a1d1c1581bd94d4b">
       <documentation>Static one-page website that acts as the front-door to Hub Industries.</documentation>
-      <property key="GitHub" value="https://github.com/FrostTusk/Landing-Page"/>
+      <property key="source" value="https://github.com/FrostTusk/Landing-Page"/>
       <property key="domain" value="hub.industries"/>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Cloudflared" id="id-d6efc6bbc428489fb63f42e6130ac560"/>
     <element xsi:type="archimate:ApplicationComponent" name="pi-hole" id="id-88cd0bfcd319471bacd11d5fd9daa5e7"/>
+    <element xsi:type="archimate:ApplicationComponent" name="[R] Hub Industries ArchiMate documentation Website" id="id-aea43194c4fa431990e808947a326a05"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-bb5c55066762419db683c778c2d195e6" type="technology">
     <element xsi:type="archimate:Node" name="back-up server" id="id-54a5b646020c4516bb900f20a8d07c93">
@@ -545,6 +546,7 @@ Zoo provides infrastructural support upon which other technology can be built. T
     <element xsi:type="archimate:RealizationRelationship" id="id-1c4592aa3ffe4f0f87e0dacc882708f1" source="id-2380301f40c14f48b0bda7367a1fa32c" target="id-e9e183b2a50544838ef861ef233c5763"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-e80cd2fef633423894406a550c21e205" source="id-ed28274caed441328fec57a92ffc03ec" target="id-9ac6ce6765914a8dac6252105bbdffc2"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-6823bf1bacc940ddbdba812666b57507" source="id-d3909ebdea0c4e98bb015762ed07d224" target="id-9ac6ce6765914a8dac6252105bbdffc2"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-789e4ccffd7e4028a94a53a1f4db102f" source="id-0d92545085bb4e24bd8577807da919bf" target="id-aea43194c4fa431990e808947a326a05"/>
   </folder>
   <folder name="Views" id="id-d99d1b4c719a487a969c34a2b1506e41" type="diagrams">
     <folder name="2. capabilities" id="id-3597717241484064878f658dec1cde17">
@@ -791,10 +793,11 @@ Zoo provides infrastructural support upon which other technology can be built. T
               <sourceConnection xsi:type="archimate:Connection" id="id-55268d77ec9e4d43b157da15338daf9d" source="id-9c2e138659ac4289b66065bc8f4f22f3" target="id-59b6bb0af9e249bdb5b4aeb906e8edee" archimateRelationship="id-eb41c71d078f4a8abe0e148e5d248694"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-6410032786364f9da2c5c2ac098cc027" source="id-9c2e138659ac4289b66065bc8f4f22f3" target="id-a8335371e9544b428fb7152cc3be964c" archimateRelationship="id-7f6deba4cba94737a0bf162c9e07e49f"/>
               <sourceConnection xsi:type="archimate:Connection" id="id-ab0495d5c8be4ae7aec33ff878910312" source="id-9c2e138659ac4289b66065bc8f4f22f3" target="id-8a4f480b0a6947c3ab9f3b1f0f7f8a39" archimateRelationship="id-833cb3681b2b41089d4cd38cd3134f5f"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-baa4cf323ade49879df41af6e9c9de8f" source="id-9c2e138659ac4289b66065bc8f4f22f3" target="id-fbe6c5aab0aa423895738752cf841346" archimateRelationship="id-789e4ccffd7e4028a94a53a1f4db102f"/>
             </child>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-dce02523c6a248929e3f9054fbde2f10" targetConnections="id-dac420e82cb74861b023d40c4a10b207" archimateElement="id-a0a9788d908f47d68d6ded27853a1502">
-            <bounds x="528" y="216" width="120" height="55"/>
+            <bounds x="528" y="249" width="120" height="55"/>
             <feature name="labelExpression" value="${name} ${specialization}"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-1d8b2eeac0764f3aada26dd5306c6bd6" targetConnections="id-bf6c88aa4f9b4c7f9d37a7ea13d185f2" archimateElement="id-8fb2de48fe8d45d9bdf8c0b46637f51f" type="1">
@@ -822,7 +825,7 @@ Zoo provides infrastructural support upon which other technology can be built. T
             <bounds x="-18" y="424" width="120" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-747293cb701c414197d8ad88de387bbb" targetConnections="id-2ef212b7737142c68b60ebfafc5823f6" archimateElement="id-323de24aa48246a3b1c60eb5335f75ab">
-            <bounds x="528" y="288" width="120" height="55"/>
+            <bounds x="528" y="312" width="120" height="55"/>
             <feature name="labelExpression" value="${name} ${specialization}"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-ae93bec9d6164f8c80ca0c3447ed9f87" targetConnections="id-057869c29c1f4415b50069ba70a8138e" archimateElement="id-3bcdb0cb6d044b99a8b75bf249b821aa">
@@ -831,6 +834,9 @@ Zoo provides infrastructural support upon which other technology can be built. T
           <child xsi:type="archimate:DiagramObject" id="id-f4ca13150ddc4d8e9ad212d519947ec1" archimateElement="id-9e09e69993d446b78dcb3beaee94870e">
             <bounds x="204" y="-2" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-bf6c88aa4f9b4c7f9d37a7ea13d185f2" source="id-f4ca13150ddc4d8e9ad212d519947ec1" target="id-1d8b2eeac0764f3aada26dd5306c6bd6" archimateRelationship="id-1b17700c63ac4af59fb4e3fb4d5a635e"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-fbe6c5aab0aa423895738752cf841346" targetConnections="id-baa4cf323ade49879df41af6e9c9de8f" archimateElement="id-aea43194c4fa431990e808947a326a05">
+            <bounds x="528" y="176" width="171" height="55"/>
           </child>
           <documentation>Outlines the usage of the various websites and related applications hosted by Zoo.</documentation>
           <property key="author" value="Frost"/>
@@ -1489,7 +1495,7 @@ To-Do's:&#xD;
         <property key="status" value="release"/>
       </element>
     </folder>
-    <folder name="1. core" id="id-ab54742db47648d5b3175d0e4a8ce5db">
+    <folder name="1. overview" id="id-ab54742db47648d5b3175d0e4a8ce5db">
       <element xsi:type="archimate:ArchimateDiagramModel" name="Capability Map" id="id-e90cc35554ef4f7987b6ed1622b6867a" connectionRouterType="2" viewpoint="capability">
         <child xsi:type="archimate:DiagramObject" id="id-613ce25be9fd4119b32cc62dbf8a3a97" archimateElement="id-fe57c152190c40cea10049a7fe74d23f">
           <bounds x="22" y="23" width="1253" height="668"/>
@@ -1644,17 +1650,20 @@ Broader question: what about the cloud?</content>
     </folder>
   </folder>
   <property key="author" value="Frost"/>
-  <property key="GitHub" value="https://github.com/FrostTusk/Zoo-ArchiMate"/>
+  <property key="source" value="https://github.com/FrostTusk/Zoo-ArchiMate"/>
   <property key="version" value="1.3"/>
   <purpose>An ArchiMate model for Zoo.&#xD;
+
+*This project is licensed under the MIT license*
 &#xD;
 This model is used to:&#xD;
 1) Maintain an architecture of my personal IT initiatives for documentation purposes.&#xD;
 2) Practice ArchiMate modeling to develop and maintain my modeling skills.&#xD;
 3) Educate and spread awareness on the importance of enterprise architecture and how to use the ArchiMate framework.&#xD;
 &#xD;
-The Capabilities view is a good starting point to follow along and understand the model.&#xD;
-&#xD;
+The Capability Map is a good starting point to follow along and understand the model.&#xD;
+Tag dictionary: {&quot;D&quot;=deprecated, &quot;R&quot;=redacted, &quot;E&quot;=elsewhere}.
+
 &#xD;
 *This project is licensed under the MIT license*</purpose>
   <profile name="Web Server" id="id-780021a2814646e692e4c2b3fa7f0280" conceptType="ApplicationComponent"/>
