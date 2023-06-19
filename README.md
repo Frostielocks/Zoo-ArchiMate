@@ -1,5 +1,12 @@
 # Zoo-ArchiMate
-An ArchiMate model for the entire Zoo IT infrastructure
+An ArchiMate model for Zoo, a conceptual custom IT service provider.
+
+This model is used to:
+1) Maintain an architecture of my personal IT initiatives for documentation purposes.
+2) Practice ArchiMate modeling to develop and maintain my modeling skills.
+3) Educate and spread awareness on the importance of enterprise architecture and how to use the ArchiMate framework.
+
+![](cover-capability-map.jpg)
 
 ## Getting Started
 For those able to use the source option it is best,

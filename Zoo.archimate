@@ -1648,12 +1648,12 @@ Broader question: what about the cloud?</content>
   <property key="author" value="Frost"/>
   <property key="source" value="https://github.com/FrostTusk/Zoo-ArchiMate"/>
   <property key="version" value="1.3"/>
-  <purpose>An ArchiMate model for Zoo.&#xD;
-&#xD;
-This model is used to:&#xD;
-1) Maintain an architecture of my personal IT initiatives for documentation purposes.&#xD;
-2) Practice ArchiMate modeling to develop and maintain my modeling skills.&#xD;
-3) Educate and spread awareness on the importance of enterprise architecture and how to use the ArchiMate framework.&#xD;
+  <purpose>An ArchiMate model for Zoo, a conceptual custom IT service provider.
+
+This model is used to:
+1) Maintain an architecture of my personal IT initiatives for documentation purposes.
+2) Practice ArchiMate modeling to develop and maintain my modeling skills.
+3) Educate and spread awareness on the importance of enterprise architecture and how to use the ArchiMate framework.
 &#xD;
 The Capability Map is a good starting point to follow along and understand the model.&#xD;
 Tag dictionary: {&quot;D&quot;=deprecated, &quot;R&quot;=redacted, &quot;E&quot;=elsewhere}.
