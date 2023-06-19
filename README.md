@@ -8,13 +8,15 @@ This model is used to:
 
 ![](cover-capability-map.jpg)
 
+
 ## Getting Started
-For those able to use the source option it is best,
+If you're an ArchiMate veteran the [source](#source) option will provide the best experience.
+We recommend newcomers to the ArchiMate language to instead download or fork the repository and use the [HTML documentation site](#html-documentation-site) which is usable even without having any modeling tools installed.
+If you just want to consult the diagram without even downloading or forking the repository you can check out the [PDF jasper report](#jasper-reports) which will render in a browser.
 
-For beginners it is recommended to try out the HTML documentation site.
-If you do not wish to download the code, the PDF jasper report can be rendered in your browser.
 
-## Using the Diagram
+## Using the Model
+We provide several different ways to consult the ArchiMate model.
 
 ### Source
 Using the source of the diagram.
