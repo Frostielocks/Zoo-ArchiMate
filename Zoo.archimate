@@ -1659,6 +1659,7 @@ Ocassionaly an element with this diagram might be tagged using &quot;&lt;>&quot;
 Tag dictionary: {&quot;D&quot;=deprecated, &quot;R&quot;=redacted, &quot;E&quot;=elsewhere}.
 &#xD;
 The Capability Map is a good starting point to follow along and understand the model.&#xD;
+
 &#xD;
 *This project is licensed under the MIT license*</purpose>
   <profile name="Web Server" id="id-780021a2814646e692e4c2b3fa7f0280" conceptType="ApplicationComponent"/>
