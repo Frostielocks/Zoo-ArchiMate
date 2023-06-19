@@ -33,31 +33,45 @@ We regularly export the model as *Jasper Report* in different file formats which
 A *Jasper Report* is a documented digest of the ArchiMate model which can be read as a business report.
 
 ### CSV
-We regular the model as *CSV File* in ```exports/Zoo.csv``` which can be used to process data conveyed within the model.
+We regularly export the model as *CSV File* in ```exports/Zoo.csv``` which can be used to process data conveyed within the model.
 
 
 ## Contributing
 Currently [FrostTusk](https://github.com/FrostTusk) is the sole contributor for the project.
 
 ### Submitting Changes
-Suggested changes can be submitted by creating a pull request.
-Make sure to export to all file formats before submitting exports/html/ exports/zoo-archimate.csv exports/zoo-archimate.xml and exports/reports)
-Before submitting any change
-Make sure to read the [namespaces section](#Namespaces) when adding new views or folders.
+Suggested changes can be submitted by submitting a pull request.
+Make sure ```exports/``` is updated before submitting!
+Check out the [Using the Model](#using-the-model) section to ensure your exports are complete.
+Also consult the [namespaces](nNamespaces) section when adding new views or folders to the source model.
 
 ### Namespaces
 This archimate project is structured using namespaces.
-Namespaces help keep view filenames descriptive and ensures views are ordered correctly in reports.
+Namespaces help keep view folder and view names descriptive and ensures views are ordered correctly in exported reports.
 
-They work by prepending [\<namespace id\>] (with namespace code being a unique 2 letter (or 1 if it's the first namespace) code that describes the namespace).
-Example: [ABCD] defined by [AB] Artilley Basics and [ABCD] Artilley Basics Collateral Damage.
+Namespaces work by prepending ```[<namespace IDs>]``` to a view or folder.
+A namespace ID is a unique one or two letter alphanumeric code that describes the namespace.
+You should only use one letter codes on hierarchical top level namespaces.
+Folders define a namespace.
 
-An important file is denoted by adding an exclamation mark "!" at the end of the namespace id.
-This ensure that important view is rendered before any other views within the namespace.
-For example: [AB!] denotes an important view in the Artilley Basics namespace.
+*Example*: ```[ABCD] Application Usage``` is a view stored under the ```[ABCD] Collateral Damage``` folder which is itself stored under the ```[AB] Artilley Basics``` folder. The namespace ```[AB] Artilley Basics``` could also be shortened to ```[A] Artilley``` because it is a hierarchical top level namespace.
 
-There are two exceptions to this rule: library views are prepended with "__" and deprecated views are prepended with "_".
-Outdated architectural views and drafts.
+Use an exclamation mark ```"!"``` at the end of a namespace ID to denote an important view.
+This ensures that the rendering software displays that important view before any other views within the namespace.
+Good targets for important views are views that provide a helicopter look at the system under design.
+
+*Example*: ```[AB!] Capability Map``` denotes an important view, "Capability Map", in the Artilley Basics namespace.
+
+The root folder is the empty namespace and views stored under this folder must still prepend ```[]``` in front of their name. Typically you will only include important files in the root folder.
+
+*Example*: ```[!] Organization Diagram``` denotes an important view, "Capability Map", in the root folder.
+
+
+There are two more special namespaces defined by the ```__libraries``` and ```_deprecated``` folders. Any view in one of those folders should prepend ```__``` or ```_``` to its name respectively and will always be rendered last.
+Library views denote views that define concepts not intrinsic to the system under design but are still useful for illustrative purposes.
+Deprecated views are views that are in the process of being removed from the model but might still reference concepts defined in some other view.
+
+*Example*: ```_Weird Test Diagram``` denotes an old testing view that is in the process of being removed. The rendering software will always render this view last with other deprecated views.
 
 
 ## Acknowledgements
