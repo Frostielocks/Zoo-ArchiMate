@@ -6,12 +6,14 @@ This model is used to:
 2) Practice ArchiMate modeling to develop and maintain my modeling skills.
 3) Educate and spread awareness on the importance of enterprise architecture and how to use the ArchiMate framework.
 
-![](cover-capability-map.jpg)
+![](capability-map-cover.jpg)
 
 
 ## Getting Started
 If you're an ArchiMate veteran the [source](#source) option will provide the best experience.
+
 We recommend newcomers to the ArchiMate language to instead download or fork the repository and use the [HTML documentation site](#html-documentation-site) which is usable even without having any modeling tools installed.
+
 If you just want to consult the diagram without even downloading or forking the repository you can check out the [PDF jasper report](#jasper-reports) which will render in a browser.
 
 
