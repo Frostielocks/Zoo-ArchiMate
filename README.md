@@ -28,7 +28,7 @@ this can be found in
 ### Jasper Reports
 
 ## Contributing
-Currently [FrostTusk](github.com/FrostTusk) is the sole contributor for the project.
+Currently [FrostTusk](https://github.com/FrostTusk) is the sole contributor for the project.
 
 ### Submitting Changes
 Suggested changes can be submitted by creating a pull request.
