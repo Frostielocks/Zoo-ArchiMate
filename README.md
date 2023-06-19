@@ -43,7 +43,7 @@ Currently [FrostTusk](https://github.com/FrostTusk) is the sole contributor for 
 Suggested changes can be submitted by submitting a pull request.
 Make sure ```exports/``` is updated before submitting!
 Check out the [Using the Model](#using-the-model) section to ensure your exports are complete.
-Also consult the [namespaces](nNamespaces) section when adding new views or folders to the source model.
+Also consult the [Namespaces](#namespaces) section when adding new views or folders to the source model.
 
 ### Namespaces
 This archimate project is structured using namespaces.
