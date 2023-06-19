@@ -1654,10 +1654,11 @@ This model is used to:
 1) Maintain an architecture of my personal IT initiatives for documentation purposes.
 2) Practice ArchiMate modeling to develop and maintain my modeling skills.
 3) Educate and spread awareness on the importance of enterprise architecture and how to use the ArchiMate framework.
+
+Ocassionaly an element with this diagram might be tagged using &quot;&lt;>&quot;, this is to visually convey meta-information.
+Tag dictionary: {&quot;D&quot;=deprecated, &quot;R&quot;=redacted, &quot;E&quot;=elsewhere}.
 &#xD;
 The Capability Map is a good starting point to follow along and understand the model.&#xD;
-Tag dictionary: {&quot;D&quot;=deprecated, &quot;R&quot;=redacted, &quot;E&quot;=elsewhere}.
-
 &#xD;
 *This project is licensed under the MIT license*</purpose>
   <profile name="Web Server" id="id-780021a2814646e692e4c2b3fa7f0280" conceptType="ApplicationComponent"/>

@@ -12,7 +12,7 @@ This model is used to:
 ## Getting Started
 If you're an ArchiMate veteran directly using the [source model](#source) will provide the best experience.
 
-We recommend newcomers to the ArchiMate language to instead download or fork the repository and use the [HTML documentation site](#html-documentation-site) which is usable even without having any modeling tools installed.
+We recommend newcomers to the ArchiMate language to instead download or fork the repository and use the [HTML documentation website](#html-documentation-website) which is usable even without having any modeling tools installed.
 
 If you just want to consult the diagram without even downloading or forking the repository you can check out the [PDF jasper report](#jasper-reports) which will render in a browser.
 
@@ -22,13 +22,19 @@ We provide several different ways to consult the ArchiMate model.
 
 ### Source Model
 The model is developed in the ```Zoo.archimate``` source file which can be opened with the [Archi](https://www.archimatetool.com/) modeling tool.
-The repository also includes an alternative Open Exchange file in ```/exports/Zoo.xml``` if you would like to use to your own prefered modeling tool.
+The repository also includes an alternative *Open Exchange File* in ```exports/Zoo.xml``` if you would like to use your own prefered modeling tool.
 
-### HTML Documentation Site
-The diagram is exported as an interactive HTML documentation website.
-this can be found in
+### HTML Documentation Website
+We regularly export the diagram as an interactive HTML documentation website.
+You can consult it by opening ```exports/html/index.html``` in your browser of choice.
 
 ### Jasper Reports
+We regularly export the model as *Jasper Report* in different file formats which can be found under ```exports/reports/```.
+A *Jasper Report* is a documented digest of the ArchiMate model which can be read as a business report.
+
+### CSV
+We regular the model as *CSV File* in ```exports/Zoo.csv``` which can be used to process data conveyed within the model.
+
 
 ## Contributing
 Currently [FrostTusk](https://github.com/FrostTusk) is the sole contributor for the project.
@@ -52,6 +58,7 @@ For example: [AB!] denotes an important view in the Artilley Basics namespace.
 
 There are two exceptions to this rule: library views are prepended with "__" and deprecated views are prepended with "_".
 Outdated architectural views and drafts.
+
 
 ## Acknowledgements
 * [ArchiMate® ](https://prod.opengroup.org/archimate-forum/archimate-overview): Enterprise Architecture Modeling Language by the Open Group
