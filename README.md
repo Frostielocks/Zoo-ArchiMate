@@ -10,7 +10,7 @@ This model is used to:
 
 
 ## Getting Started
-If you're an ArchiMate veteran directly using the [source model](#source) will provide the best experience.
+If you're an ArchiMate veteran, directly using the [source model](#source) will provide the best experience.
 
 We recommend newcomers to the ArchiMate language to instead download or fork the repository and use the [HTML documentation website](#html-documentation-website) which is usable even without having any modeling tools installed.
 
