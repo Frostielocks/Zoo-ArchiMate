@@ -21,8 +21,7 @@ If you just want to consult the diagram without even downloading or forking the 
 We provide several different ways to consult the ArchiMate model.
 
 ### Source
-Using the source of the diagram.
-The diagram is developed in .archi format.
+The model is developed using .archi format.
 An xml file is also included in ```/exports/``` if you would like to 
 
 ### HTML Documentation Site
@@ -52,3 +51,7 @@ For example: [AB!] denotes an important view in the Artilley Basics namespace.
 
 There are two exceptions to this rule: library views are prepended with "__" and deprecated views are prepended with "_".
 Outdated architectural views and drafts.
+
+## Acknowledgements
+* [ArchiMate® ](https://prod.opengroup.org/archimate-forum/archimate-overview): Enterprise Architecture Modeling Language by the Open Group
+* [Archi](https://www.archimatetool.com/): Open Source modelling toolkit for creating ArchiMate models and sketches
