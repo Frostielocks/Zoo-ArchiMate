@@ -10,7 +10,7 @@ This model is used to:
 
 
 ## Getting Started
-If you're an ArchiMate veteran the [source](#source) option will provide the best experience.
+If you're an ArchiMate veteran directly using the [source model](#source) will provide the best experience.
 
 We recommend newcomers to the ArchiMate language to instead download or fork the repository and use the [HTML documentation site](#html-documentation-site) which is usable even without having any modeling tools installed.
 
@@ -51,12 +51,4 @@ For example: [AB!] denotes an important view in the Artilley Basics namespace.
 
 
 There are two exceptions to this rule: library views are prepended with "__" and deprecated views are prepended with "_".
-
-## Guide to Views
-The following views are maintained:
-1. **Actors**: This view outlines the main actors involved in the overall architecture.
-2. **Motivation**: The underlying motivation of
-3. **Technology**:
-4. **decompositions/**: 
-5. **capabilities/**:
-6. **deprecated**: Outdated architectural views and drafts.
+Outdated architectural views and drafts.
