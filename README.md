@@ -68,8 +68,8 @@ The root folder is the empty namespace and views stored under this folder must s
 
 
 There are two more special namespaces defined by the ```__libraries``` and ```_deprecated``` folders. Any view in one of those folders should prepend ```__``` or ```_``` to its name respectively and will always be rendered last.
-Library views denote views that define concepts not intrinsic to the system under design but are still useful for illustrative purposes.
-Deprecated views are views that are in the process of being removed from the model but might still reference concepts defined in some other view.
+Library views denote views that define elements not intrinsic to the system under design but are still useful for illustrative purposes.
+Deprecated views are views that are in the process of being removed from the model but might still reference elements defined in some other view.
 
 *Example*: ```_Weird Test Diagram``` denotes an old testing view that is in the process of being removed. The rendering software will always render this view last with other deprecated views.
 
