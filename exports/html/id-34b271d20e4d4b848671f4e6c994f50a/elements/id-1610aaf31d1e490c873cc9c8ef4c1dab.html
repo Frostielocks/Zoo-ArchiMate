@@ -1,14 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 	<title>reinaart</title>
 
-	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
-	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
 	<!-- BOOTSTRAP -->
 	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
-	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="../../css/model.css">
 	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
@@ -40,6 +40,9 @@
                     <!-- Properties -->
                     <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
 
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
 				</ul>
 
 				<!-- Tab panes -->
@@ -56,6 +59,93 @@
 								</tr>
 							</thead>
 							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-e4b93bf11ee04b06810cc445bbf8fc4e">
+																	<td><a href="../views/id-e4b93bf11ee04b06810cc445bbf8fc4e.html" target="view" title="[ZN] On-Premise Technology"> [ZN] On-Premise Technology </a></td>
+																	<td><span class="i18n-viewpoint-technology_usage" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-dda51e47dc574082b0796b26a73275ce.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-ServingRelationship" /></td>
+											<td><a href="../elements/id-1610aaf31d1e490c873cc9c8ef4c1dab.html" target="element"> reinaart</a></td>
+											<td><a href="../elements/id-b6a6cd81728e492a9d4a7b8cc1043c7b.html" target="element"> router (carcharadon)</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e06936f53e4745caa740107223a405b1.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-1610aaf31d1e490c873cc9c8ef4c1dab.html" target="element"> reinaart</a></td>
+											<td><a href="../elements/id-0007ab60274f4d4194864f146097c2b8.html" target="element"> nest mini</a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-111292d6e1b849aba0dbb4f2960574ae.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-ecb50207e1bd45ddaf6df93cd8e4b49c.html" target="element"> TV</a></td>
+											<td><a href="../elements/id-1610aaf31d1e490c873cc9c8ef4c1dab.html" target="element"> reinaart</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-a4eea4e7874f474386c9d9766a4f18f1.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-09606155d41843948dbd564cd6aead40.html" target="element"> security camera</a></td>
+											<td><a href="../elements/id-1610aaf31d1e490c873cc9c8ef4c1dab.html" target="element"> reinaart</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7b0db06ea32c4db7b39ec636a82db0ea.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-ea11d862a08f454cae995076442f6978.html" target="element"> raspberry pi 4</a></td>
+											<td><a href="../elements/id-1610aaf31d1e490c873cc9c8ef4c1dab.html" target="element"> reinaart</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-2a986f61247f47e1a44867b37e571bdc.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-2d70179cb18942b3b46efe1b7d6b2266.html" target="element"> Desktop PC</a></td>
+											<td><a href="../elements/id-1610aaf31d1e490c873cc9c8ef4c1dab.html" target="element"> reinaart</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-7a35475465714e339d3ead9ce3e742ee.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-ec0efecc39ec4a7290e18ae8bb0f5102.html" target="element"> aquila: phone</a></td>
+											<td><a href="../elements/id-1610aaf31d1e490c873cc9c8ef4c1dab.html" target="element"> reinaart</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-8980767e50c64234bc23cf087601f9af.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-2c3d1ba42ca1499ebfd2811081e56442.html" target="element"> milvago: phone</a></td>
+											<td><a href="../elements/id-1610aaf31d1e490c873cc9c8ef4c1dab.html" target="element"> reinaart</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b3cd2fb13b4845aab65b9837e8ae3a3d.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-6e51c2de99104ed49243dbc37606e1fc.html" target="element"> gulo: laptop</a></td>
+											<td><a href="../elements/id-1610aaf31d1e490c873cc9c8ef4c1dab.html" target="element"> reinaart</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-b7e677e1a2d94596a52db3830cd135cd.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-b0f641f981ed4ac9b7b8fefa91f2feb7.html" target="element"> chromecast</a></td>
+											<td><a href="../elements/id-1610aaf31d1e490c873cc9c8ef4c1dab.html" target="element"> reinaart</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-96b32e020d1748838df9381c339ee243.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AssociationRelationship" /></td>
+											<td><a href="../elements/id-0007ab60274f4d4194864f146097c2b8.html" target="element"> nest mini</a></td>
+											<td><a href="../elements/id-1610aaf31d1e490c873cc9c8ef4c1dab.html" target="element"> reinaart</a></td>
+										</tr>
 							</tbody>
 						</table>
 					</div>
