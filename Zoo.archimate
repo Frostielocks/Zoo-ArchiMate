@@ -23,7 +23,7 @@
 Zoo provides infrastructural support upon which other technology can be built. This mostly consists of networking, storage, and server space. It consists of various interconnected computer networks.</documentation>
       <property key="codename" value="zoo-net"/>
     </element>
-    <element xsi:type="archimate:Capability" name="Development" id="id-b76154aa2d93441ebe4da76fbf8166d9">
+    <element xsi:type="archimate:Capability" name="Project Management" id="id-b76154aa2d93441ebe4da76fbf8166d9">
       <documentation>Zoo is responsible for developing custom technology to suit my needs. Part of this capability is also to provide the necessary development artefacts to support Zoo.</documentation>
       <property key="codename" value="Generations"/>
     </element>
@@ -1812,6 +1812,10 @@ It also shows important principles to keep in mind.</documentation>
         <child xsi:type="archimate:DiagramObject" id="id-df9914cad4fd497e96001781433c55f4" targetConnections="id-1a4d8fca21a642ce823370b0d21e70fc" archimateElement="id-b76154aa2d93441ebe4da76fbf8166d9">
           <bounds x="23" y="474" width="519" height="175"/>
           <feature name="labelExpression" value="${name}: &quot;${property:codename}&quot;&#xD;&#xA;"/>
+        </child>
+        <child xsi:type="archimate:Note" id="id-986f7097d839472aa98501aec8f995c5" textAlignment="1">
+          <bounds x="704" y="518" width="185" height="80"/>
+          <content>Casting? Personal Devices?</content>
         </child>
       </child>
       <documentation>Outlines the capabilities of Zoo.
